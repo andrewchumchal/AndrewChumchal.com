@@ -8,7 +8,15 @@ node_js:
 - 6
 sudo: false
 script:
-- npm run deploy
+- docpad generate --env static --out out/
+deploy:
+  provider: pages
+  local-dir: out/
+  skip-cleanup: true
+  github-token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
 env:
   global:
   - GH_REPO="andrewchumchal/AndrewChumchal.com"
