@@ -6,6 +6,8 @@ before_script:
 - ./scripts/prebuild.sh
 node_js:
 - 6
+- 10
+- 11
 sudo: false
 script:
 - docpad generate --env static --out out/
