@@ -1,0 +1,28 @@
+{
+  "name": "gh.andrewchumchal.com",
+  "version": "1.0.0",
+  "homepage": "http://gh.andrewchumchal.com/",
+  "authors": [
+    "Andrew Chumchal - http://gh.andrewchumchal.com"
+  ],
+  "description": "My personal website",
+  "main": "docpad run",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/files/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "4.6.3",
+    "bootstrap": "~3.3.1",
+    "lodash": "~2.4.1"
+  },
+  "resolutions": {
+    "font-awesome": "4.6.3"
+  }
+}

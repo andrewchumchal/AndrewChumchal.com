@@ -1,0 +1,59 @@
+---
+title: Andrew Chumchal
+layout: main
+scripts: ['/scripts/instagram.js','/scripts/github.js']
+referencesOthers: true
+heading: Andrew Chumchal
+subHeading: <a href="/about">Student</a> / <a href="/blog">My Life</a> / <a href="/portfolio">Computer Geek</a>
+cssClass: homepage
+headerImage: /img/thinblueline.jpeg
+priority: 1
+urls:
+  - /contact
+section: home
+isPage: true
+---
+
+<section class="intro row">
+  <!-- div>Header height: <span id="headerHeight"></span>. Page width: <span id="pageWidth"></span>.</div '/scripts/github.js', -->
+  <div class="col-md-4">
+    <h3>Hi, I'm Andrew!</h3>
+    <p> I'm happily living in the Dallas metropolitan area.
+    I have a dog named Hank. I'm interested in Cyber
+    Security and anything to do with computers </p>
+
+    <p>See my <a href="/about/">about page</a> for a little more on my personal life,
+    or take a look at my <a href="/portfolio/">portfolio</a>.</p>
+  </div>
+  <div class="col-md-8 pics">
+    <img src="/img/home-thumbs/Andrew.jpg" alt="Picture of Andrew in D.C" class="img-thumbnail"/>
+    <div class="instagram andrewchumchal"><p class="loading"><i class="fa fa-spinner fa-spin"></i> Loading the latest @andrew_chumchal instagram<p></div>
+    <div class="instagram thecatpj"><p class="loading"><i class="fa fa-spinner fa-spin"></i> Loading the latest #thecatpj from @andrew_chumchal instagram...</p></div>
+    <img src="/img/home-thumbs/andrewbw.jpg" alt="Picture of Andrew in Black & White" class="img-thumbnail"/>
+    <noscript><p><img src="//owa.ahost4all.com/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
+    <img src="/img/home-thumbs/austin_aaron_i.jpg" alt="My Brothers Aaron and Austin." class="img-thumbnail"/>
+
+  </div>
+</section>
+
+<blockquote class="quote row">
+  <i class="fa fa-quote-left fa fa-4x pull-left"></i>
+  <p>Goodness is about character - integrity, honesty, kindness, generosity, moral courage, and the like. More than anything else, it is about how we treat other people.</p>
+  <cite>Dennis Prager</cite>
+</blockquote>
+
+<section class="feeds row">
+  <div class="col-md-8 blog">
+    <!-- h2><a href="/blog"><i class="fa fa-terminal"></i> Latest on the Blog</a></h2 -->
+      <ul>
+        <!-- li class="archives"><strong><a href="/blog">More Blog articles <i class="fa fa-chevron-right"></i></a></strong></li -->
+      </ul>
+  </div>
+
+  <div class="col-md-4 github">
+    <h2><a href="https://github.com/andrewchumchal"><i class="fa fa-github"></i> GitHub Activity</a></h2>
+      <ul class="fa-ul">
+        <li class="muted"><i class="fa-li fa fa-spinner fa-spin"></i> Loading latest GitHub feed...</li>
+      </ul>
+  </div>
+</section>

@@ -1,0 +1,40 @@
+---
+title: "Andrew Chumchal's Portfolio"
+heading: Portfolio
+layout: main
+icon: laptop
+cssClass: portfolio
+headerImage: /img/foresthome.jpg
+priority: 1
+referencesOthers: true
+section: portfolio
+isPage: true
+---
+
+<div class="row">
+  <div class="col-sm-4 portfolio-intro">
+    <p><strong>Andrew Chumchal</strong></p>
+    <ul class="links">
+        <li><a href="https://github.com/andrewchumchal"><i class="fa fa-github"></i>GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/andrewchumchal"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
+        <li><a href="/Andrew-Chumchal-Resume.pdf"><i class="fa fa-file-text"></i>Resum&eacute;</a></li>
+    </ul>
+  </div>
+</div>
+
+<article class="row ">
+  <div class="col-xs-4">
+      <a class="thumb" href="www.afterrabble.com/ChApocalypse/images/screenshots/screen_5.jpg" rel="lightbox"><img src="//www.afterrabble.com/ChApocalypse/images/screenshots/screen_5.jpg" alt="" class="img-thumbnail" /></a>
+  </div>
+  <div class="col-sm-8">            
+    <h2>
+      <a href="https://afterrabble.com/ChApocalypse/">ChApocalypse</a>
+    </h2>
+      <p>
+        <a href="https://afterrabble.com/ChApocalypse/">ChApocalypse</a> is a iOS and Andriod game app. Which was created by my brother (Aaron Renfore) and myself.
+      </p>
+    <p class="meta">        
+        <a href="https://github.com/AfterRabbleApps/Chapocalypse"><i class="fa fa-github"></i></a>
+    </p>
+  </div>
+</article>

@@ -1,0 +1,52 @@
+---
+title: About Andrew
+layout: main
+headerImage: /img/house.jpg
+cssClass: about
+icon: android   
+priority: 0.8
+section: about
+isPage: true
+---
+
+<h1>About</h1>
+
+
+<p>
+
+<h2>The Essentials</h2>
+<p> I am 21 years young. I was born in San Antonio, but I've pretty much grown up in Ridgecrest, California.</p>
+<p>then I moved back to Dallas Texas two years ago. </p>
+
+</p>
+
+
+
+<div class="clearfix"></div>
+
+<h2>Work</h2>
+<blockquote class="quote row">
+  <i class="fa fa-quote-left fa fa-4x pull-left"></i>
+  <p>The best preparation for good work tomorrow is to do good work today.</p>
+  <cite>Elbert Hubbard</cite>
+</blockquote> 
+<p</p>
+
+<h2>Play</h2>
+<p>I like bening outdoors: hiking, camping, sports, hunting, basically anything. I'm not all that great at any sport but I enjoy playing most of them</p>
+<p>I've pretty much stop them, but I did enjoy lots of computer games.</p>
+<p>I think, more then anything. I like spending time with friends.</p>
+
+<h2>Around the internet</h2>
+<img src="/img/profile.jpg" alt="" class="right" />
+<p>I show up all over the place:
+  <a href="https://www.facebook.com/andrew.w.chumchal">Facebook</a>,
+  <a href="https://twitter.com/andrewchumchal">Twitter</a>,
+  <a href="https://github.com/andrewchumchal">GitHub</a>,
+  <a href="https://www.linkedin.com/in/andrewchumchal">Linked in</a>,
+  and pretty much anywhere where you see this picture </p>
+
+<h3>That's all folks</h3>
+<p>Thanks for reading, I hope you have a great day!</p>
+<p>Have a blessed day.<br />
+-Andrew</p>
