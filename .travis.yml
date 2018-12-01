@@ -7,6 +7,8 @@ before_script:
 node_js:
 - 6
 sudo: false
+script:
+- docpad generate --env static --out out/
 deploy:
   provider: pages
   local-dir: out/
