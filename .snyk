@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:minimatch:20160620':
+    - docpad-plugin-jshint > jshint > cli > glob > minimatch:
+        reason: None given
+        expires: '2018-12-31T15:44:26.706Z'
+    - docpad-plugin-jshint > jshint > minimatch:
+        reason: None given
+        expires: '2018-12-31T15:44:26.706Z'
+  SNYK-JS-MERGE-72553:
+    - docpad-plugin-jshint > merge:
+        reason: Ignore
+        expires: '2018-12-31T15:44:26.707Z'
+  'npm:cli:20160615':
+    - docpad-plugin-jshint > jshint > cli:
+        reason: None given
+        expires: '2018-12-31T15:44:26.707Z'
+  'npm:debug:20170905':
+    - docpad-plugin-thumbnails > gm > debug:
+        reason: None given
+        expires: '2018-12-31T15:44:26.707Z'
+  'npm:gm:20151026':
+    - docpad-plugin-thumbnails > gm:
+        reason: None given
+        expires: '2018-12-31T15:44:26.707Z'
+  'npm:shelljs:20140723':
+    - docpad-plugin-jshint > jshint > shelljs:
+        reason: None given
+        expires: '2018-12-31T15:44:26.707Z'
+patch: {}

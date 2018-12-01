@@ -17,14 +17,18 @@
     "docpad-plugin-sitemap": "~2.4.0",
     "docpad-plugin-thumbnails": "~2.1.2",
     "docpad-plugin-uglify": "~2.5.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "snyk": "^1.112.0"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
     "start": "docpad run",
-    "deploy": "docpad deploy-ghpages --env static"
+    "deploy": "docpad deploy-ghpages --env static",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "license": "MIT",
   "repository": "https://github.com/andrewchumchal/AndrewChumchal.com",
-  "devDependencies": {}
+  "devDependencies": {},
+  "snyk": true
 }
