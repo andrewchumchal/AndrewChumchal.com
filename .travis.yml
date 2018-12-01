@@ -7,8 +7,14 @@ before_script:
 node_js:
 - 6
 sudo: false
-script:
-- npm run deploy
+deploy:
+  provider: pages
+  local-dir: out/
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: develop
 env:
   global:
   - GH_REPO="andrewchumchal/AndrewChumchal.com"
