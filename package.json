@@ -4,6 +4,7 @@
   "description": "Personal website of Andrew Chumchal, built with DocPad",
   "dependencies": {
     "docpad": "~6.82.1",
+    "docpad-plugin-coffeescript": "^2.7.0",
     "docpad-plugin-cleanurls": "^2.10.0",
     "docpad-plugin-eco": "^2.2.1",
     "docpad-plugin-ghpages": "^2.6.1",
