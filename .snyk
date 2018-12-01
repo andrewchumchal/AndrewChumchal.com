@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - docpad-plugin-jshint > jshint > cli > glob > minimatch:
+        patched: '2018-12-01T15:04:12.083Z'
+    - docpad-plugin-jshint > jshint > minimatch:
+        patched: '2018-12-01T15:04:12.083Z'
