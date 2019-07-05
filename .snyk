@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.1
+version: v1.13.5
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:minimatch:20160620':
@@ -29,4 +29,30 @@ ignore:
     - docpad-plugin-jshint > jshint > shelljs:
         reason: None given
         expires: '2018-12-31T15:44:26.707Z'
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
+    - docpad-plugin-redirector > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
+    - snyk > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-05T07:25:29.552Z'
