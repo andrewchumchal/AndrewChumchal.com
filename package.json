@@ -18,7 +18,7 @@
     "docpad-plugin-thumbnails": "~2.1.2",
     "docpad-plugin-uglify": "~2.5.0",
     "underscore": "^1.8.3",
-    "snyk": "^1.112.0"
+    "snyk": "^1.316.1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
